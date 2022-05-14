@@ -1,7 +1,9 @@
 const reverseSeq = n => {
-let newArray = []
-for (let i=n; i>0; i--) {
-  newArray.push(i)
-  } return newArray
-}
-reverseSeq(5)
+  let answerArray = [];          //intialize an array
+  
+  for (let i=n; i>0; i--){  //loop down from n to 1
+    answer.push(i);         //push each i to the answer array
+  }
+  
+  return answerArray;            //return answer;
+};
