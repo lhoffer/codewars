@@ -1,6 +1,3 @@
-function sumTwoSmallestNumbers(numbers) {  
-  sumSmallest = numbers.sort((a, b) => a - b).slice(0,2)
-  return sumSmallest.reduce((x, y) => (x + y))
-  
+function doubleInteger(i) {
+ return i * 2;
 }
-sumTwoSmallestNumbers([2,2,4,4])
