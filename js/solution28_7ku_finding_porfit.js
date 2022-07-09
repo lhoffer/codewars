@@ -1,11 +1,17 @@
-function isIsogram(str){
+function minMax(arr){
   
-  //split the string
-  // check that there are no duplicate letters
-  // check that there are no consecutive letters
-  // return true or false if both conditions are true
-let isoGramCheck = (str) => str.split("").every((c, i) => str.indexOf(c) == i )
-return (isoGramCheck(str))
-
+  // loop through the array
+  // find the highest value print it to new array
+  // find the lowest value print it to a new arary
+let maxProfit = arr.sort((a,b) => b-a)[0]
+let minPrice = arr.sort((a,b) => a-b)[0]
+return [minPrice,maxProfit]
 }
-isIsogram("abcdefghijklmnopqrstuvwxyzK")
+
+minMax([1,2,3,4,5])
+
+
+// codewars one line solution
+function minMax(arr){
+  return [Math.min(...arr), Math.max(...arr)];
+}
