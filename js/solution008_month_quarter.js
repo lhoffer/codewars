@@ -10,3 +10,5 @@ const quarterOf = (month) => {
   }
   
 }
+
+quarterOf(12)

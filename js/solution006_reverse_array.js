@@ -7,3 +7,4 @@ const reverseSeq = n => {
   
   return answerArray;            //return answer;
 };
+reverseSeq(10)
