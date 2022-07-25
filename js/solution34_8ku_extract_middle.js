@@ -14,3 +14,9 @@ function getMiddle(s) {
   return s.substring(position, position + length)
 }
 getMiddle("test")
+
+// code wars oneliner
+function getMiddle(s)
+{
+  return s.substr(Math.ceil(s.length / 2 - 1), s.length % 2 === 0 ? 2 : 1);
+}
