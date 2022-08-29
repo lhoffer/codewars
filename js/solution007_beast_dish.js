@@ -1,5 +1,5 @@
 function feast(beast, dish) {
-  //assing first letter to var
+  //assign first letter to var
     let firstLetterBeast = beast.slice(0,1)
     let lastLetterBeast = beast.slice(-1)
     let firstLetterDish = dish.slice(0,1)
