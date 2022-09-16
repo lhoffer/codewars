@@ -7,3 +7,4 @@ return  (strA.endsWith(strB))
 }
 solution('ails', 'fails')
 
+
